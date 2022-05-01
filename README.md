@@ -42,4 +42,4 @@ VGGFACE Models:
  - https://github.com/rcmalli/keras-vggface#projects--blog-posts
  - https://www.robots.ox.ac.uk/~vgg/publications/2018/Cao18/cao18.pdf
  - https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/
-
+ - https://paperswithcode.com/dataset/vggface2-1
