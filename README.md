@@ -46,11 +46,23 @@ How confident is each model that the control images are their correct identity.
 
 How confident is ResNet50 that each auto generated image is their corresponding identity.
 
-| Image | Confidence |
-| ----- | ------ |
-| ![](Results/RESNET/Images/Channing_Tatum.png) | |
+| Target Identity | Image | Confidence |
+| ----- | ----- | ------ |
+| Channing Tatum | ![](Results/RESNET/Images/Channing_Tatum.png) | 99.810% |
+| Dwayne Johnson | ![](Results//RESNET/Images/Dwayne_Johnson.png) |  99.967% |
+| Simon Cowell |![](Results//RESNET/Images/Simon_Cowell.png) | 99.997% |
+| Whoopi Goldberg | ![](Results//RESNET/Images/Whoopi_Goldberg.png) | 99.394% |
 
 ### SENet50
+
+How confident is SENet50 that each auto generated image is their corresponding identity.
+
+| Target Identity | Image | Confidence |
+| ----- | ----- | ------ |
+| Channing Tatum | ![](Results/SENET/Images/Channing_Tatum.png) | 99.256% |
+| Dwayne Johnson | ![](Results/SENET/Images/Dwayne_Johnson.png) | 99.999% |
+| Simon Cowell |![](Results/SENET/Images/Simon_Cowell.png) | 99.970% |
+| Whoopi Goldberg | ![](Results/SENET/Images/Whoopi_Goldberg.png) | 99.999% |
 
 ## References
 
