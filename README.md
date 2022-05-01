@@ -1,7 +1,6 @@
 # Fooling Facial Recognition Models Using Deep Convelutional Generative Advasarial Networks
 
-Brandon Trahms
-Github: brtrahms
+Brandon Trahms - Github: brtrahms
 
 ## Intro
 Facial Recognition software is becoming more and more prevelant in our daily lives from our phones to law enforcment. To help prevent the misuse of these softwares we should further our understanding of these algorithms so they don't remain as simple black boxs in which we don't know what is inside. This project is aiming to study low barrier to entry pre-trained Facial Recognition models and their accuarcy using a Deep Convelutional Generative Advasarial Network or DCGAN. The DCGAN will be used to generate images, learning over time to generate images that are thought to have a person's face by the network. We can then look through these positive results and determine how accurate these images are compared to a human observer.
