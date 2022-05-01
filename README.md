@@ -1,7 +1,6 @@
 # Fooling Facial Recognition Models Using Deep Convelutional Generative Advasarial Networks
 
-Brandon Trahms
-Github: brtrahms
+Brandon Trahms - Github: brtrahms
 
 ## Intro
 Facial Recognition software is becoming more and more prevelant in our daily lives from our phones to law enforcment. To help prevent the misuse of these softwares we should further our understanding of these algorithms so they don't remain as simple black boxs in which we don't know what is inside. This project is aiming to study low barrier to entry pre-trained Facial Recognition models and their accuarcy using a Deep Convelutional Generative Advasarial Network or DCGAN. The DCGAN will be used to generate images, learning over time to generate images that are thought to have a person's face by the network. We can then look through these positive results and determine how accurate these images are compared to a human observer.
@@ -23,7 +22,7 @@ Facial Recognition software is becoming more and more prevelant in our daily liv
 ## Experiment Description
 The Facial Detection Models will be loaded in and set up in our python enviornment. Our DCGAN will be then built using Tensorflow following the basic architecture of taking in a randomized normal seed and outputing a resulting image. These outputed images will be scored on the confidence percentage given by the recognition model for a certain identity we choose and fed back to the DCGAN for optimization. Once the GAN has generated a number of detections past a certain confidence threshold, we can look through and see if there are any false positives.
 
-For my traininngs I chose 4 identities from VGGFace to use which are Channing Tatum, Dwayne Johnson, Simon Cowell, and Whoopi Goldberg.
+For my traininngs I chose 4 identities from VGGFace2 to use which are Channing Tatum, Dwayne Johnson, Simon Cowell, and Whoopi Goldberg.
 
 ### Hardware
 
@@ -69,7 +68,7 @@ How confident is SENet50 that each auto generated image is their corresponding i
 DCGAN:
  - https://www.tensorflow.org/tutorials/generative/dcgan
 
-VGGFACE Models:
+VGGFace2 Models:
  - https://github.com/rcmalli/keras-vggface#projects--blog-posts
  - https://www.robots.ox.ac.uk/~vgg/publications/2018/Cao18/cao18.pdf
  - https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/
