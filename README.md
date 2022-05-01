@@ -17,17 +17,21 @@ Facial Recognition software is becoming more and more prevelant in our daily liv
 - numpy
 
 ### Facial Recognition Models:
-- keras_vggface - Resnet50
-- keras_vggface - SEnet50
+- keras_vggface - ResNet50
+- keras_vggface - SENet50
 
 ## Experiment Description
-The Facial Detection Models will be loaded in and set up in our python enviornment. Our DCGAN will be then built using Tensorflow following the basic architecture of taking in a randomized normal seed and outputing a resulting image. These outputed images will be scored on the confidence percentage given by the recognition model for a certain identity and fed back to the DCGAN for optimization. Once the GAN has generated a number of detections past a certain confidence threshold, we can look through and see if there are any false positives.
+The Facial Detection Models will be loaded in and set up in our python enviornment. Our DCGAN will be then built using Tensorflow following the basic architecture of taking in a randomized normal seed and outputing a resulting image. These outputed images will be scored on the confidence percentage given by the recognition model for a certain identity we choose and fed back to the DCGAN for optimization. Once the GAN has generated a number of detections past a certain confidence threshold, we can look through and see if there are any false positives.
 
 ### Hardware
 
 GPU: NIVIDIA GeForce GTX 1660 Ti with Max-Q Design
 
 ## Results
+
+### ResNet50
+
+### SENet50
 
 ## References
 
