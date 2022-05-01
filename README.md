@@ -23,7 +23,7 @@ Facial Recognition software is becoming more and more prevelant in our daily liv
 ## Experiment Description
 The Facial Detection Models will be loaded in and set up in our python enviornment. Our DCGAN will be then built using Tensorflow following the basic architecture of taking in a randomized normal seed and outputing a resulting image. These outputed images will be scored on the confidence percentage given by the recognition model for a certain identity we choose and fed back to the DCGAN for optimization. Once the GAN has generated a number of detections past a certain confidence threshold, we can look through and see if there are any false positives.
 
-For my traininngs I chose 4 identities from VGGFace to use which are Channing Tatum, Dwayne Johnson, Simon Cowell, and Whoopi Goldberg.
+For my traininngs I chose 4 identities from VGGFace2 to use which are Channing Tatum, Dwayne Johnson, Simon Cowell, and Whoopi Goldberg.
 
 ### Hardware
 
@@ -69,7 +69,7 @@ How confident is SENet50 that each auto generated image is their corresponding i
 DCGAN:
  - https://www.tensorflow.org/tutorials/generative/dcgan
 
-VGGFACE Models:
+VGGFace2 Models:
  - https://github.com/rcmalli/keras-vggface#projects--blog-posts
  - https://www.robots.ox.ac.uk/~vgg/publications/2018/Cao18/cao18.pdf
  - https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/
