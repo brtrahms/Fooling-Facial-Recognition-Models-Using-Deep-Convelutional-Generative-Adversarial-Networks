@@ -46,7 +46,9 @@ How confident is each model that the control images are their correct identity.
 
 How confident is ResNet50 that each auto generated image is their corresponding identity.
 
-
+| Image | Confidence |
+| ----- | ------ |
+| ![](Results/RESNET/Images/Channing_Tatum.png) | |
 
 ### SENet50
 
