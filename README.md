@@ -44,6 +44,10 @@ How confident is each model that the control images are their correct identity.
 
 ### ResNet50
 
+How confident is ResNet50 that each auto generated image is their corresponding identity.
+
+
+
 ### SENet50
 
 ## References
