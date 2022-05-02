@@ -26,7 +26,7 @@ For my traininngs I chose 4 identities from VGGFace2 to use which are Channing T
 
 ### Hardware
 
-GPU: NIVIDIA GeForce GTX 1660 Ti with Max-Q Design
+GPU: NVIDIA GeForce GTX 1660 Ti with Max-Q Design
 
 ## Results
 
